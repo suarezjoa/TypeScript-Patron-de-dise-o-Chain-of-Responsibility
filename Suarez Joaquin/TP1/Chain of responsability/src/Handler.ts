@@ -1,6 +1,6 @@
  import { Documento } from "./Documento";
- import { interfaceHandler } from "./InterfaceHandler";
- export abstract class Handler implements interfaceHandler {
+  import { IHandler } from "./IHandler";
+ export abstract class Handler implements IHandler  {
 
     siguienteEnLaCadena: Handler;
 
